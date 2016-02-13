@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>URVENTS</title>
+    <title>URVents</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -27,6 +27,13 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="js/events.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -77,22 +84,145 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <div id="timeline" data-columns>                 
-                    <div class="item">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni culpa ab modi repellendus voluptatibus quis.</p>
-                    </div>                   
-                    <div class="item">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, quos aperiam minus similique sunt ducimus nemo earum perferendis fugiat doloribus.</p>
-                    </div>                    
-                    <div class="item">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ullam, explicabo nisi ipsam fuga possimus beatae facilis praesentium sapiente nam odit sequi repellendus dolorum non veniam placeat sint. Omnis, obcaecati, perferendis officia a cupiditate molestiae delectus corporis aliquid aperiam asperiores pariatur eius accusantium nisi! Ad, incidunt, tempore, officia, ipsum et nulla asperiores libero provident non sit exercitationem neque magnam repudiandae eius eligendi consectetur eum! Ipsum vero dolor repudiandae aliquam illo autem odio nesciunt labore. Nulla repudiandae dolorem amet consequuntur consectetur.</p>
-                    </div>
-                    <div class="item">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, harum, officia, tenetur nam mollitia sed quia animi veniam molestiae illo magnam aliquam eligendi delectus. Accusantium, nostrum, quidem, excepturi, consequuntur facere praesentium odio deserunt ipsam magnam accusamus eveniet ab vero dolores repellat dolorem delectus pariatur repudiandae recusandae provident dolore nesciunt quasi!</p>
-                    </div>                  
-                </div>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <div id="grid-gallery" class="grid-gallery">
+                <section class="grid-wrap">
+                    <ul class="grid">
+                        <li class="grid-sizer"></li><!-- for Masonry column width -->
+                        <li>
+                            <figure>
+                                <img src="img/thumb/1.png" alt="img01"/>
+                                <figcaption><h3>Event 1</h3><p>Chillwave hoodie ea gentrify aute sriracha consequat.</p></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/thumb/2.png" alt="img02"/>
+                                <figcaption><h3>Event 2</h3><p>Laborum tattooed iPhone, Schlitz irure nulla Tonx retro 90's chia cardigan quis asymmetrical paleo. </p></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/thumb/3.png" alt="img03"/>
+                                <figcaption><h3>Event 3</h3><p>Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.</p></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/thumb/3.png" alt="img03"/>
+                                <figcaption><h3>Event 4</h3><p>Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.</p></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/thumb/1.png" alt="img01"/>
+                                <figcaption><h3>Event 5</h3><p>Chillwave hoodie ea gentrify aute sriracha consequat.</p></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/thumb/2.png" alt="img02"/>
+                                <figcaption><h3>Event 6</h3><p>Laborum tattooed iPhone, Schlitz irure nulla Tonx retro 90's chia cardigan quis asymmetrical paleo. </p></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/thumb/3.png" alt="img03"/>
+                                <figcaption><h3>Event 7</h3><p>Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.</p></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/thumb/3.png" alt="img03"/>
+                                <figcaption><h3>Event 8</h3><p>Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.</p></figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </section>
+                <section class="slideshow">
+                    <ul>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h3>Letterpress asymmetrical</h3>
+                                    <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
+                                </figcaption>
+                                <img src="img/large/1.png" alt="img01"/>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h3>Vice velit chia</h3>
+                                    <p>Chillwave Echo Park Etsy organic Cosby sweater seitan authentic pour-over. Occupy wolf selvage bespoke tattooed, cred sustainable Odd Future hashtag butcher.</p>
+                                </figcaption>
+                                <img src="img/large/2.png" alt="img02"/>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h3>Brunch semiotics</h3>
+                                    <p>IPhone PBR polaroid before they sold out meh you probably haven't heard of them leggings tattooed tote bag, butcher paleo next level single-origin coffee photo booth.</p>
+                                </figcaption>
+                                <img src="img/large/3.png" alt="img03"/>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h3>Chillwave nihil occupy</h3>
+                                    <p>Vice cliche locavore mumblecore vegan wayfarers asymmetrical letterpress hoodie mustache. Shabby chic lomo polaroid, scenester 8-bit Portland Pitchfork VHS tote bag.</p>
+                                </figcaption>
+                                <img src="img/large/4.png" alt="img04"/>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h3>Letterpress asymmetrical</h3>
+                                    <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
+                                </figcaption>
+                                <img src="img/large/1.png" alt="img01"/>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h3>Vice velit chia</h3>
+                                    <p>Chillwave Echo Park Etsy organic Cosby sweater seitan authentic pour-over. Occupy wolf selvage bespoke tattooed, cred sustainable Odd Future hashtag butcher.</p>
+                                </figcaption>
+                                <img src="img/large/2.png" alt="img02"/>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h3>Brunch semiotics</h3>
+                                    <p>IPhone PBR polaroid before they sold out meh you probably haven't heard of them leggings tattooed tote bag, butcher paleo next level single-origin coffee photo booth.</p>
+                                </figcaption>
+                                <img src="img/large/3.png" alt="img03"/>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <figcaption>
+                                    <h3>Chillwave nihil occupy</h3>
+                                    <p>Vice cliche locavore mumblecore vegan wayfarers asymmetrical letterpress hoodie mustache. Shabby chic lomo polaroid, scenester 8-bit Portland Pitchfork VHS tote bag.</p>
+                                </figcaption>
+                                <img src="img/large/4.png" alt="img04"/>
+                            </figure>
+                        </li>
+                    </ul>
+                    <nav>
+                        <span class="icon nav-prev"></span>
+                        <span class="icon nav-next"></span>
+                        <span class="icon nav-close"></span>
+                    </nav>
+                    <div class="info-keys icon">Navigate with arrow keys</div>
+                </section><!-- // slideshow -->
+            </div><!-- // grid-gallery -->
             </div>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
     </header>
 
@@ -293,6 +423,13 @@
     <script src="js/creative.js"></script>
     <!-- Salvattore -->
     <script src="js/salvattore.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/masonry.pkgd.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpGridGallery.js"></script>
+        <script>
+            new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+        </script>
 
 </body>
 
