@@ -31,20 +31,8 @@ body { padding-top: 70px; }
 
 
 /**
- * Bootstrap adds a 20px margin to the bottom of elements that 
- * have been given the class of thumbnail. When images have a 
- * caption after them, this margin may be too large. You can 
- * override it like this:
-*/
-
-.thumbnail { margin-bottom: 5px; }
-
-
-
-/**
- * We can add some "helper classes" to add or remove margins to
- * help aspects of the layout. These helper classes should only
- * be used sparingly.
+ * We can add some helper classes to turn off default margin on
+ * the top of headings if needed.
 */
 
 .margin-t-0 { margin-top: 0; }
